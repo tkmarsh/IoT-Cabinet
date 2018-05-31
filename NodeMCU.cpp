@@ -24,6 +24,7 @@ void setup(void){
   digitalWrite(led, 0);
   Serial.begin(115200);
   WiFi.begin(ssid, password);
+  WiFi.mode(WIFI_STA);
   Serial.println("");
 
   // Wait for connection

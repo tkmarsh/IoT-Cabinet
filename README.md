@@ -5,6 +5,9 @@ Uses a NodeMCU running an HTTP server listening for commands and a bash script c
 Thrown together in about an hour using parts of my [LED IR Remote project](https://github.com/tkmarsh/LEDBulbRemote).
 
 Get termux [here](https://play.google.com/store/apps/details?id=com.termux&hl=en_GB), requires the [API](https://play.google.com/store/apps/details?id=com.termux.api) too.
+Youll also need to apt install termux-api within termux.
+
+Put cabinet.sh into .shortcuts/tasks and you can create a widget for it.
 
 And [here's a video demonstration](https://www.youtube.com/watch?v=mcwr6-qKkLU) that's like 2 mins longer than it needs to be.
 
